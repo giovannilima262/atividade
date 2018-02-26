@@ -3,8 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Giovanni Conceição</title>
-  </head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    </head>
   <body>
-    <h1>Teste</h1>
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Giovanni Conceição</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">Modelo1</a></li>
+          <li><a href="#">Modelo2</a></li>
+          <li><a href="#">Modelo3</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#">Modelo1</a></li>
+          <li><a href="#">Modelo2</a></li>
+          <li><a href="#">Modelo3</a></li>
+        </ul>
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="#teste1">Teste 1</a></li>
+          <li class="tab disable"><a href="#teste2">Teste 2</a></li>
+          <li class="tab"><a href="#teste3">Teste 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="teste1" class="col s12">Teste 1</div>
+    <div id="teste2" class="col s12">Teste 2</div>
+    <div id="teste3" class="col s12">Teste 3</div>
   </body>
 </html>
