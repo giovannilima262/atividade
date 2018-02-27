@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+}
+
+h3{
+    font-weight: bold;
+}
+.slider {
+    height: 500px !important;
+}
+
+.slider .indicators {
+    display: none;
+}
+
+.sombra, .slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.blue-grey.darken-2 {
+    height: auto;
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    z-index: 3;
+}
+
+nav .brand-logo {
+    margin-left: 39px;
+    width: 70%;
+    font-weight: bold;
+}
+
+.tabs.tabs-transparent {
+    z-index: 3;
+    top: -48px;
+}
+
+.blue-grey.darken-2 {
+    height: 0px;
+}
+
+.slides{
+    height: 500px !important;
+}
+
+.slider .slides li .caption {
+    top: 30%;
+    width: 100%;
+    left: unset;
+    display: flex;
+    justify-content: center;
+}
+.slider .slides li .caption h5{
+    color: white !important;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px solid;
+    border-radius: 2px;
+}
+
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.tabs.tabs-transparent .indicator {
+    background-color: #6b2f2f;
+}
+
+.page-footer {
+    background-color: #0b0c10;
+}
+.card {
+    width: 265px;
+}
