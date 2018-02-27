@@ -85,3 +85,12 @@ nav .brand-logo {
 .card {
     width: 265px;
 }
+
+.carousel{
+    margin-top: -231px;
+    z-index: 5;
+}
+
+.carousel .carousel-item {
+    opacity: 1 !important;
+}
