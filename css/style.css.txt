@@ -1,3 +1,0 @@
-nav.nav-extended .nav-content {
-    margin-top: 400px;
-}

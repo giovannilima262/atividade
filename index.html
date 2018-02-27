@@ -8,36 +8,143 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+
     <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     </head>
   <body>
-    <nav class="nav-extended">
+
+    <nav class="nav-extended, blue-grey darken-2">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Giovanni Conceição</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Modelo1</a></li>
-          <li><a href="#">Modelo2</a></li>
-          <li><a href="#">Modelo3</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="#">Modelo1</a></li>
-          <li><a href="#">Modelo2</a></li>
-          <li><a href="#">Modelo3</a></li>
-        </ul>
+        <a href="#" class="brand-logo">Giovanni de Lima Conceição</a>
       </div>
       <div class="nav-content">
+        <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/python.png">
+                <div class="caption center-align">
+                  <div>
+                    <h3>Python</h3>
+                    <h5 class="light grey-text text-lighten-3">Desenvolvimento Python Com Kivy</h5>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="img/java.jpg">
+                <div class="caption center-align">
+                  <div>
+                    <h3>Java 6 e 8</h3>
+                    <h5 class="light grey-text text-lighten-3">Desenvolvimento Java web</h5>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="img/web.png">
+                <div class="caption center-align">
+                  <div>
+                    <h3 style="color: #2f4d73">Web</h3>
+                    <h5 class="light grey-text text-lighten-3"><span style="color: #ffe000">Html</span>, <span style="color: #dd3a13">Css</span>, <span style="color: #26a69a">Js</span></h5>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         <ul class="tabs tabs-transparent">
           <li class="tab"><a href="#teste1">Teste 1</a></li>
           <li class="tab disable"><a href="#teste2">Teste 2</a></li>
-          <li class="tab"><a href="#teste3">Teste 3</a></li>
+          <li class="tab"><a href="#teste3">Certificado</a></li>
         </ul>
       </div>
     </nav>
-    <div id="teste1" class="col s12">Teste 1</div>
-    <div id="teste2" class="col s12">Teste 2</div>
-    <div id="teste3" class="col s12">Teste 3</div>
+    <div style="margin-top: 500px;">
+
+      <div id="teste1" class="col s12">Teste 1</div>
+      <div id="teste2" class="col s12">Teste 2</div>
+      <div id="teste3" class="col s12">Teste 3</div>
+
+      <div class="carousel">
+        <div class="carousel-item" >
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img style="width: 100%;" class="activator" src="img/certificado.bmp">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Certificação Java 6<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Java 6<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" >
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img style="width: 100%;" class="activator" src="img/febrace.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Premiação Febrace<i class="material-icons right">more_vert</i></span>
+              <p><a target="_blank" href="http://www.portaldaindustria.com.br/agenciacni/noticias/2016/11/projetos-de-minas-gerais-e-da-bahia-vencem-a-mostra-sesi-de-ciencias-e-engenharia/">Portal da Indústria</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Febrace<i class="material-icons right">close</i></span>
+              <p style="text-align: justify;">
+                  Os estudantes de ensino médio Davi Rocha Macedo Sousa, 
+                  <span style="font-weight: bold;">Giovanni de Lima Conceição</span> e Matheus Souza Brito, da escola 
+                  do SESI Djalma Pessoa, de Salvador, desenvolveram um software 
+                  que ajuda alunos a gerenciarem os conteúdos escolares. Por meio 
+                  da plataforma, acessível na Internet, é possível acompanhar os conteúdos 
+                  que já passaram ou que ainda serão vistos em determinado ano letivo. 
+                  O objetivo é dar mais autonomia para estudantes organizarem a rotina de estudos. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img style="width: 100%;" class="activator" src="img/kivy.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Kivy e Python<i class="material-icons right">more_vert</i></span>
+              <p><a target="_blank" href="#">Projetos</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Kivy e Python<i class="material-icons right">close</i></span>
+              <p style="text-align: justify;">Resumo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Giovanni de Lima Conceição</h5>
+              <p class="grey-text text-lighten-4">giovannilima262@gmail.com</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Git Hub</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 Copyright Text
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+      <script type="text/javascript" src="js/javascript.js"></script>
   </body>
 </html>
