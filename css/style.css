@@ -122,6 +122,10 @@ nav .brand-logo {
     width: 25px;
 }
 
+.video-container{
+    margin-top: 55px;
+}
+
 .slider .slides li .caption {
     top: 30%;
     width: 100%;
