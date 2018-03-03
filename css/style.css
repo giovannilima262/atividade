@@ -16,12 +16,56 @@
     background-color: #888484;
 }
 
+.imgcurriculo{
+    width: 15%;
+    transform: rotate(90deg);
+    margin: -20px;
+    position: absolute;
+}
+
+.titulo{
+    text-align: center;
+    padding-bottom: 19px;
+    box-shadow: 0px 4px 9px -5px #d0d0d0;
+}
+
+.slides div{
+    text-align: center;
+}
+
+b{
+    font-weight: 400;
+}
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
+
+.imgmapa{
+    margin-left: 25px;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.caption p{
+    margin-left: 25px;
+}
+
+.caption{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.header {
+    color: #006064;
+    font-weight: 300;
+    margin-top: 66px;
+}
 
 main {
     flex: 1 0 auto;
@@ -62,7 +106,7 @@ nav .brand-logo {
 }
 
 .tabs.tabs-transparent {
-    z-index: 3;
+    z-index: 6;
     top: -48px;
 }
 
@@ -71,7 +115,11 @@ nav .brand-logo {
 }
 
 .slides{
-    height: 500px !important;
+    height: 623px !important;
+}
+
+.header img{
+    width: 25px;
 }
 
 .slider .slides li .caption {
@@ -81,6 +129,13 @@ nav .brand-logo {
     display: flex;
     justify-content: center;
 }
+
+.img_center{
+    height: 345px;
+    display: flex;
+    justify-content: center;
+}
+
 .slider .slides li .caption h5{
     color: white !important;
     font-weight: bold;
@@ -99,14 +154,15 @@ nav .brand-logo {
 }
 
 .page-footer {
-    background-color: #0b0c10;
+    margin-top: 100px;
+    background-color: #006064;
 }
 .card {
     width: 265px;
 }
 
 .carousel{
-    margin-top: -231px;
+    margin-top: -276px;
     z-index: 5;
 }
 
